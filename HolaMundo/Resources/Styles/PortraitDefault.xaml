@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                    x:Class="EstefanoMaui.Resources.Styles.PortraitDefault">
+    <Color x:Key="ScreenBackground">#FFE0B2</Color>
+    <Color x:Key="ScenarioTextColor">#751A35</Color>
+    <x:String x:Key="ScenarioFont">ScenarioSerif</x:String>
+    <x:Double x:Key="DesignFontSize">30</x:Double>
+</ResourceDictionary>

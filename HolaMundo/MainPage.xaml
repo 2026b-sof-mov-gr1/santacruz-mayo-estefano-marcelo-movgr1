@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="EstefanoMaui.MainPage"
+             BackgroundColor="{DynamicResource ScreenBackground}"
+             Padding="0">
+    <Grid Padding="16,0">
+        <Label x:Name="ScenarioLabel"
+               TextColor="{DynamicResource ScenarioTextColor}"
+               FontFamily="{DynamicResource ScenarioFont}"
+               FontSize="{DynamicResource ScenarioFontSize}"
+               FontAutoScalingEnabled="False"
+               HorizontalOptions="Fill"
+               VerticalOptions="Fill"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               LineBreakMode="NoWrap" />
+    </Grid>
+</ContentPage>

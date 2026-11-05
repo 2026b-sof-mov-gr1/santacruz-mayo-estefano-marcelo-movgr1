@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-android</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>EstefanoMaui</RootNamespace>
+    <UseMaui>true</UseMaui>
+    <SingleProject>true</SingleProject>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationTitle>Estefano S.</ApplicationTitle>
+    <ApplicationId>com.estefano.proyecto01</ApplicationId>
+    <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
+    <ApplicationVersion>1</ApplicationVersion>
+    <SupportedOSPlatformVersion>21.0</SupportedOSPlatformVersion>
+    <NeutralLanguage>es</NeutralLanguage>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Maui.Controls" Version="10.0.0" />
+    <MauiIcon Include="Resources/AppIcon/appicon.svg" Color="#14213D" />
+    <MauiSplashScreen Include="Resources/Splash/splash.svg" Color="#14213D" BaseSize="128,128" />
+    <MauiFont Include="Resources/Fonts/*.ttf" />
+    <MauiFont Include="Resources/Fonts/*.otf" />
+  </ItemGroup>
+</Project>

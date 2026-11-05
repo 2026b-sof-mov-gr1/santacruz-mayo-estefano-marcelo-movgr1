@@ -1,0 +1,15 @@
+**/bin/
+**/obj/
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.apk
+*.aab
+*.keystore
+*.jks
+local.properties
+.DS_Store
+Thumbs.db
